@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Mosacen_Alfoad</string>
+    <string name="home">خانه</string>
+    <string name="title_about">درباره ما</string>
+    <string name="title_setting">تنظیمات</string>
+    <string name="title_list">لیست مطالب</string>
 </resources>
