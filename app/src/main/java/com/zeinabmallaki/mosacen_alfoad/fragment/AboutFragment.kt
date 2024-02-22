@@ -1,30 +1,31 @@
-package com.zeinabmallaki.mosacen_alfoad
+package com.zeinabmallaki.mosacen_alfoad.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.zeinabmallaki.mosacen_alfoad.databinding.HomeBinding
+import com.zeinabmallaki.mosacen_alfoad.databinding.AboutBinding
 
-class HomeFragment: Fragment() {
+class AboutFragment: Fragment() {
 
-    private lateinit var binding: HomeBinding
+    private lateinit var binding: AboutBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = HomeBinding.inflate(inflater)
+        binding = AboutBinding.inflate(inflater)
         return binding.root
 
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.homeFragment.setOnClickListener {
+        binding.aboutFragment.setOnClickListener {
 
         }
+
     }
 }
