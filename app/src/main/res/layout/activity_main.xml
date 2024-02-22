@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/back5"
+    android:background="@drawable/backgraound"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     
@@ -23,11 +23,11 @@
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
         app:menu="@menu/bottom_nav_menu"
-        android:background="@drawable/back4"
+        android:background="@drawable/nav_bottom"
         app:itemTextColor="@color/black"
         app:itemTextAppearanceInactive="@style/BottomNavigationTextAppearance"
         app:itemTextAppearanceActive="@style/BottomNavigationTextAppearance"
-        android:layout_weight="0.07"
+        android:layout_weight="0.09"
         android:layout_height="0dp"/>
 
 
